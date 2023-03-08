@@ -70,8 +70,8 @@ else
 return "";
 }
 
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 $data=mysqli_query($con, "select distinct nom from classe");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

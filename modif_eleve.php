@@ -2,8 +2,8 @@
 session_start();
 include('cadre.php');
 include('calendrier.html');
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 
 if(isset($_GET['modif_el'])){//modif_el qu'on a recupérer de l'affichage (modifier)
 $id=$_GET['modif_el'];

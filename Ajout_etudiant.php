@@ -7,8 +7,8 @@ include('calendrier.html');
 <img src="titre_img/ajout_etudiant.png" class="position_titre">
 <center><pre>
 <?php
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 if(isset($_POST['nom'])){
 	if($_POST['nom']!="" and $_POST['prenom']!="" and $_POST['date']!="" and $_POST['adresse']!="" and $_POST['phone']!="" and $_POST['pseudo']!="" and $_POST['passe']!=""){
 	$nom=addslashes(Htmlspecialchars($_POST['nom']));

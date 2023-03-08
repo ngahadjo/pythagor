@@ -1,8 +1,8 @@
 <?php
 session_start();
 include('cadre.php');
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 ?>
 <html>
 <div class="corp">

@@ -1,8 +1,8 @@
 <?php
 session_start();
 include('cadre.php');
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 $data=mysqli_query($con, "select distinct promotion from classe order by promotion desc");
 $retour=mysqli_query($con, "select distinct nom from classe"); //pour afficher les classe existantes
 ?>

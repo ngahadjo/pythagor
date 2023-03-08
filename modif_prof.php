@@ -1,8 +1,8 @@
 <?php
 session_start();
 include('cadre.php');
-$con = mysqli_connect("localhost", "root", "");
-mysqli_select_db($con, "gestion");
+$con = mysqli_connect("localhost", "oracle", "abc123");
+mysqli_select_db($con, "webserver");
 echo '<div class="corp"><img src="titre_img/modif_prof.png" class="position_titre"><pre>';
 if(isset($_GET['modif_prof'])){//modif_el qu'on a recupérer de l'affichage (modifier)
 $id=$_GET['modif_prof'];
