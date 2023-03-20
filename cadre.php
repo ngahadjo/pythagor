@@ -197,7 +197,6 @@ $data=mysqli_query($con, "select distinct nom from classe");
 			</li>		
 		</ul>
 	</div>
-		<?php  ?>
 		</div>
 <div class="connexion2">
 &nbsp;&nbsp;&nbsp;<font color="white">Login</font><br/>
