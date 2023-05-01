@@ -88,7 +88,7 @@ $data=mysqli_query($con, "select distinct nom from classe");
 		<ul class="niveau1">
 			<li><a href="1" class="fly">Student </a>
 				<ul class="niveau2" style="top : 4px;">
-					<li><a href="listeEtudiant.php?list=true">Consult the list</a>
+					<li><a href="afficher_student.php">Consult the list</a>
 						<ul class="niveau3">
 						<?php $retour=mysqli_query("select distinct nom from classe");
 							while($a=mysqli_fetch_array($retour)){
