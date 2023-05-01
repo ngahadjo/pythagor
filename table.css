@@ -37,11 +37,11 @@
 }
 #rounded-corner tfoot td.rounded-foot-left
 {
-	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+	background: #8fce00 url('table-images/botleft.png') left bottom no-repeat;
 }
 #rounded-corner tfoot td.rounded-foot-right
 {
-	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+	background: #8fce00 url('table-images/botright.png') right bottom no-repeat;
 }
 #rounded-corner tbody tr:hover td
 {

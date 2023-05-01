@@ -138,11 +138,11 @@ font-weight:bold;
 #monmenu ul ul {
 display: none;
  position: absolute;
- left: 154px; /* la position des sous menu par rapport a leurs menu superieur  */
+ left: 154px;
  top: -1px; 
  margin:0px; 
  padding: 0px;
- border: 1px solid #B0B0B0;
+ border: 1px solid #F7F7F7;
  }
  
  #monmenu ul li a{ 

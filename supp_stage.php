@@ -11,7 +11,7 @@ include('cadre.php');
 if(isset($_GET['supp_stage'])){
 $id=$_GET['supp_stage'];
 mysqli_query($con, "delete from stage where numstage='$id'");
-echo '<h1>Suppression avec succes ! </h1>';
+echo '<h1>Successfully deleted ! </h1>';
 echo '<br/><br/><a href="index.php">Come back to the home page !</a>';
 }
 ?>

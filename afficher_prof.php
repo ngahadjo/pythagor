@@ -28,7 +28,7 @@ $data=mysqli_query($con, "select * from prof");
 </tfoot>
  <tbody>
 <?php
-while($a=mysqli_fetch_array($data)){
+while($a=mysqli_fetch_array($con, $data)){
 ?>
 <tr><?php if(isset($_SESSION['admin']) or isset($_SESSION['etudiant']) or isset($_SESSION['prof'])){
 echo '<tr><td><a href="modif_prof.php?modif_prof='.$a['numprof'].'">modifier</a></td><td><a href="modif_prof.php?supp_prof='.$a['numprof'].'" onclick="return(confirm(\'Etes-vous sûr de vouloir supprimer cette entrée?\'));">supprimer</a></td>';}
