@@ -86,7 +86,7 @@ $data=mysqli_query($con, "select distinct nom from classe");
 &nbsp;&nbsp;&nbsp;<font color="white">Menu</font><br/><br/>
 <div id="monmenu" >
 		<ul class="niveau1">
-			<li><a href="1" class="fly">Student </a>
+			<li><a href="" class="fly">Student</a>
 				<ul class="niveau2" style="top : 4px;">
 					<li><a href="afficher_student.php">Consult the list</a>
 						<ul class="niveau3">
@@ -180,7 +180,7 @@ $data=mysqli_query($con, "select distinct nom from classe");
 							<li><a href="afficher_evaluation.php">See reviews</a></li>
 						</ul>
 					</li>	
-			<li><a href="ajout_devoir.php">Devoirs</a>
+			<li><a href="ajout_devoir.php">homework</a>
 				<ul class="niveau2">
 				<li><a href="ajout_devoir.php">Add an assignment</a></li>
 				<li><a href="afficher_devoir.php">See homework</a></li>
